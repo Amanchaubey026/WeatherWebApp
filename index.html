@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body img src="img.jpg" height: 100vh >
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">WeatherApp</a>
@@ -141,87 +141,81 @@
             <thead>
               <tr>
                 <th style="width: 34%"></th>
-                <th style="width: 22%">Cloud_pct</th>
                 <th style="width: 22%">Temp</th>
-                <th style="width: 22%">Feels_like</th>
                 <th style="width: 22%">Humidity</th>
+                <th style="width: 22%">Feels_like</th>
+                <th style="width: 22%">Wind_speed</th>
+                <th style="width: 22%">Cloud_pct</th>
+                <th style="width: 22%">Sunset</th>   
+                <th style="width: 22%">Sunrise</th>
                 <th style="width: 22%">Min_temp</th>
                 <th style="width: 22%">Max_temp</th>
-                <th style="width: 22%">Wind_speed</th>
-                <th style="width: 22%">Wind_degrees</th>
-                <th style="width: 22%">Sunrise</th>
-                <th style="width: 22%">Sunset</th>   
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row" class="text-start">Bnanglore</th>
-                
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
+              <tr class="banglore">
+                <th scope="row"  id="banglore" >Bnanglore</th>
+                <td ><span class="temp3"></span></td>
+                <td ><span class="humidity3"></span></td>
+                <td ><span class="feels_like3"></span></td>
+                <td ><span class="wind_speed3"></span></td>
+                <td ><span class="cloud_pct3"></span></td>
+                <td ><span class="sunrise3"></span></td>
+                <td ><span class="sunset3"></span></td>
+                <td ><span class="min_temp3"></span></td>
+                <td ><span class="max_temp3"></span></td>
               </tr>
-              <tr>
-                <th scope="row" class="text-start">Noida</th>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
+              <tr class="Noida">
+                <th scope="row"  id="Noida">Noida</th>
+
+                <td ><span class="temp3"></span></td>
+                <td ><span class="humidity3"></span></td>
+                <td ><span class="feels_like3"></span></td>
+                <td ><span class="wind_speed3"></span></td>
+                <td ><span class="cloud_pct3"></span></td>
+                <td ><span class="sunrise3"></span></td>
+                <td ><span class="sunset3"></span></td>
+                <td ><span class="min_temp3"></span></td>
+                <td ><span class="max_temp3"></span></td>
               </tr>
             </tbody>
 
             <tbody>
-              <tr>
-                <th scope="row" class="text-start">Pune</th>
-                < <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
+              <tr class="Pune">
+                <th scope="row"  id="Pune">Pune</th>
+                <td ><span class="temp3"></span></td>
+                <td ><span class="humidity3"></span></td>
+                <td ><span class="feels_like3"></span></td>
+                <td ><span class="wind_speed3"></span></td>
+                <td ><span class="cloud_pct3"></span></td>
+                <td ><span class="sunrise3"></span></td>
+                <td ><span class="sunset3"></span></td>
+                <td ><span class="min_temp3"></span></td>
+                <td ><span class="max_temp3"></span></td>
               </tr>
-              <tr>
-                <th scope="row" class="text-start">Hydrabad</th>
-                < <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
+              <tr class="Hydrabad">
+                <th scope="row"  id="Hydrabad">Hydrabad</th>
+                <td ><span class="temp3"></span></td>
+                <td ><span class="humidity3"></span></td>
+                <td ><span class="feels_like3"></span></td>
+                <td ><span class="wind_speed3"></span></td>
+                <td ><span class="cloud_pct3"></span></td>
+                <td ><span class="sunrise3"></span></td>
+                <td ><span class="sunset3"></span></td>
+                <td ><span class="min_temp3"></span></td>
+                <td ><span class="max_temp3"></span></td>
               </tr>
-              <tr>
-                <th scope="row" class="text-start">Varanasi</th>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
+              <tr class="Varanasi">
+                <th scope="row"  id="Varanasi">Varanasi</th>
+                <td ><span class="temp3"></span></td>
+                <td ><span class="humidity3"></span></td>
+                <td ><span class="feels_like3"></span></td>
+                <td ><span class="wind_speed3"></span></td>
+                <td ><span class="cloud_pct3"></span></td>
+                <td ><span class="sunrise3"></span></td>
+                <td ><span class="sunset3"></span></td>
+                <td ><span class="min_temp3"></span></td>
+                <td ><span class="max_temp3"></span></td>
               </tr>
             </tbody>
           </table>

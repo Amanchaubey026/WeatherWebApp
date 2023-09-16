@@ -27,7 +27,6 @@ async function getWeather(city) {
     max_temp.innerHTML = data.max_temp;
     wind_speed.innerHTML = data.wind_speed;
     wind_speed2.innerHTML = data.wind_speed;
-    // wind_degrees.innerHTML = data.wind_degrees;
     sunrise.innerHTML = data.sunrise;
     sunset.innerHTML = data.sunset;
   } catch (error) {
